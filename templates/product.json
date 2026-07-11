@@ -54,7 +54,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Cordless & Rechargeable</span> – Style your hair anywhere without needing an outlet.<br><br>\n\n<span style=\"font-weight: bold;\">🔥 Fast, Even Heating</span> –  Advanced ceramic technology smooths hair quickly with less frizz.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ Adjustable Heat Settings</span> – Suitable for fine, thick, curly, or treated hair.<br><br>\n\n<span style=\"font-weight: bold;\">💫 Smooth, Tangle-Free Results</span> –  Glides gently through hair for a sleek, shiny finish.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Deep Pore Cleansing</span> – Helps remove blackheads, excess oil, dirt, and dead skin buildup from clogged pores.<br><br>\n\n<span style=\"font-weight: bold;\">⚙️ Adjustable Suction Levels</span> – Choose the right intensity for your skin type and comfort.<br><br>\n\n<span style=\"font-weight: bold;\">💧 3 Skin Modes</span> – Normal, Oily, and Dry modes make it easy to personalize your skincare routine.<br><br>\n\n<span style=\"font-weight: bold;\">🔋 Rechargeable & Portable</span> – Use it easily at home or while traveling with its cordless USB-rechargeable design.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -96,14 +96,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "collapsible_description_mFEEde": {
-          "type": "collapsible_description",
-          "settings": {
-            "icon": "heart",
-            "heading": "Description",
-            "keep_open": false
-          }
         }
       },
       "block_order": [
@@ -117,8 +109,7 @@
         "buy_buttons",
         "custom_liquid_wbDEGx",
         "related_buttons",
-        "sticky_cart",
-        "collapsible_description_mFEEde"
+        "sticky_cart"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -175,7 +166,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Clear Pores. Fresh Confidence",
             "text_size": 20,
             "link": ""
           }
@@ -204,7 +195,7 @@
         "heading_tHmwxe": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Deep Clean, Fresh Skin",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -212,7 +203,7 @@
         "text_yH4F3j": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Give your skin the refresh it deserves. Nuvapore helps remove the look of blackheads, excess oil, and impurities, leaving your complexion feeling cleaner and looking smoother after every use.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -224,6 +215,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1783152993_4cc01828-9a1f-4a8d-a3e0-a20e8938f113.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -257,7 +249,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Stop Squeezing. Start Deep Cleaning",
             "text_size": 20,
             "link": ""
           }
@@ -286,7 +278,7 @@
         "heading_pxXWr8": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Personalized Pore Care",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -294,7 +286,7 @@
         "text_DYUPaD": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>With adjustable suction levels, three skin modes, and multiple interchangeable heads, Nuvapore makes it easy to customize your skincare routine for a comfortable, effective at-home cleansing experience.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -306,6 +298,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1761406019_phpp9a31pd69hg1aIOHbKe.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -330,82 +323,24 @@
         "padding_bottom": 36
       }
     },
-    "blocks_UNkPdE": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_c856904_xHJykk": {
-          "type": "ai_gen_block_c856904",
-          "settings": {
-            "header_col_1": "Feature",
-            "header_col_2": "Benefit",
-            "header_col_3": "Details",
-            "row_1_col_1": "Quality materials",
-            "row_1_col_2": "Long-lasting durability",
-            "row_1_col_3": "Premium construction",
-            "row_2_col_1": "Fast shipping",
-            "row_2_col_2": "Quick delivery",
-            "row_2_col_3": "2-3 business days",
-            "row_3_col_1": "Easy returns",
-            "row_3_col_2": "Hassle-free process",
-            "row_3_col_3": "30-day guarantee",
-            "row_4_col_1": "Customer support",
-            "row_4_col_2": "Expert assistance",
-            "row_4_col_3": "24/7 availability",
-            "header_background": "#df7390",
-            "header_text_color": "#ffffff",
-            "row_odd_background": "#f3f3f3",
-            "row_even_background": "#ffffff",
-            "cell_text_color": "#212326",
-            "border_color": "#d2d5d9",
-            "table_background": "#ffffff",
-            "desktop_width_percent": 100,
-            "header_font_size": 16,
-            "cell_font_size": 14,
-            "cell_padding": 16,
-            "border_width": 1,
-            "border_radius": 0,
-            "text_alignment": "left"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_c856904_xHJykk"
-      ],
-      "name": "Benefits table",
-      "settings": {}
-    },
-    "faq_NMpBcR": {
-      "type": "faq",
-      "blocks": {
-        "question_t9GBdi": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        },
-        "question_JkJcDQ": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_t9GBdi",
-        "question_JkJcDQ"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_zebLLh": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "<style>\n.nuvapore-compare {\n  width: 100%;\n  max-width: 900px;\n  margin: 25px auto;\n  border-collapse: collapse;\n  font-family: Arial, sans-serif;\n  font-size: 15px;\n  border-radius: 14px;\n  overflow: hidden;\n  box-shadow: 0 4px 18px rgba(223,115,144,.15);\n}\n\n.nuvapore-compare th {\n  background: #df7390;\n  color: #fff;\n  padding: 15px 10px;\n  text-align: center;\n}\n\n.nuvapore-compare td {\n  padding: 14px 10px;\n  text-align: center;\n  border-bottom: 1px solid #f2d4dc;\n}\n\n.nuvapore-compare td:first-child {\n  text-align: left;\n  font-weight: 600;\n  color: #444;\n}\n\n.nuvapore-compare tr:nth-child(even) {\n  background: #fff7f9;\n}\n\n.nuvapore-yes {\n  color: #df7390;\n  font-weight: 700;\n}\n\n.nuvapore-no {\n  color: #999;\n  font-weight: 700;\n}\n\n@media (max-width:600px){\n  .nuvapore-compare{\n    font-size:13px;\n  }\n\n  .nuvapore-compare th,\n  .nuvapore-compare td{\n    padding:11px 6px;\n  }\n}\n</style>\n\n<table class=\"nuvapore-compare\">\n  <tr>\n    <th>Benefits</th>\n    <th>Nuvapore</th>\n    <th>Others</th>\n  </tr>\n\n  <tr>\n    <td>Adjustable Suction Levels</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>3 Skin Modes</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Multiple Suction Heads</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Rechargeable & Cordless</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Portable Design</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Helps Remove the Look of Blackheads</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Suitable for Weekly Home Use</td>\n    <td class=\"nuvapore-yes\">✔ Yes</td>\n    <td class=\"nuvapore-no\">✖ No</td>\n  </tr>\n</table>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_3DxFmH": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.faq-section{\nmax-width:900px;\nmargin:40px auto;\nfont-family:Arial,sans-serif;\n}\n.faq-section details{\nborder-bottom:1px solid #e5e5e5;\npadding:16px 0;\n}\n.faq-section summary{\nlist-style:none;\ncursor:pointer;\nfont-size:17px;\nfont-weight:600;\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\n}\n.faq-section summary::-webkit-details-marker{\ndisplay:none;\n}\n.faq-section summary::after{\ncontent:\"+\";\nfont-size:24px;\nfont-weight:400;\ntransition:.2s;\n}\n.faq-section details[open] summary::after{\ncontent:\"−\";\n}\n.faq-section .answer{\nmargin-top:12px;\nfont-size:15px;\nline-height:1.7;\ncolor:#666;\n}\n</style>\n\n<div class=\"faq-section\">\n\n<details>\n<summary>How often should I use Nuvapore?</summary>\n<div class=\"answer\">\nFor best results, use Nuvapore <strong>1–2 times per week</strong>. Avoid excessive use to help keep your skin comfortable.\n</div>\n</details>\n\n<details>\n<summary>Is Nuvapore suitable for all skin types?</summary>\n<div class=\"answer\">\nYes! Nuvapore features <strong>Normal, Oily, and Dry</strong> skin modes with adjustable suction levels, allowing you to customize your skincare routine.\n</div>\n</details>\n\n<details>\n<summary>Does it come with different suction heads?</summary>\n<div class=\"answer\">\nYes. Nuvapore includes multiple interchangeable suction heads designed for different facial areas and skincare needs.\n</div>\n</details>\n\n<details>\n<summary>Can I use it on active acne?</summary>\n<div class=\"answer\">\nNo. Avoid using Nuvapore on active acne, irritated skin, sunburn, wounds, or directly under the eyes.\n</div>\n</details>\n\n<details>\n<summary>How should I prepare my skin before using it?</summary>\n<div class=\"answer\">\nStart with a clean face. For best results, use the device after a warm shower, facial steamer, or warm towel to help prepare the skin before treatment.\n</div>\n</details>\n\n<details>\n<summary>Is it rechargeable?</summary>\n<div class=\"answer\">\nYes! Nuvapore is USB rechargeable, cordless, and portable, making it convenient for both home use and travel.\n</div>\n</details>\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -494,8 +429,8 @@
     "image_with_text_wqwjmH",
     "scrolling_promotion_3eXWk4",
     "image_with_text_689fec",
-    "blocks_UNkPdE",
-    "faq_NMpBcR",
+    "custom_liquid_zebLLh",
+    "custom_liquid_3DxFmH",
     "17838068207fc13168",
     "guarantees_Yj7NaV"
   ]
