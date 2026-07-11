@@ -54,7 +54,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Cordless & Rechargeable</span> – Style your hair anywhere without needing an outlet.<br><br>\n\n<span style=\"font-weight: bold;\">🔥 Fast, Even Heating</span> –  Advanced ceramic technology smooths hair quickly with less frizz.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ Adjustable Heat Settings</span> – Suitable for fine, thick, curly, or treated hair.<br><br>\n\n<span style=\"font-weight: bold;\">💫 Smooth, Tangle-Free Results</span> –  Glides gently through hair for a sleek, shiny finish.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">❄️ Helps Reduce Puffiness</span> – The cooling effect helps refresh tired-looking skin and reduce the appearance of facial puffiness.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Fresh, Glowing Appearance</span> – Helps your complexion look smoother, brighter, and more awake in just a few minutes.<br><br>\n\n<span style=\"font-weight: bold;\">🌸 Soothing Hot & Cold Use</span> – Use it cold for a refreshing beauty routine or warm for a relaxing self-care moment.<br><br>\n\n<span style=\"font-weight: bold;\">✅ Reusable & Adjustable</span> – Flexible gel beads and an adjustable strap provide a comfortable fit for different face shapes.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -96,14 +96,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "collapsible_description_mFEEde": {
-          "type": "collapsible_description",
-          "settings": {
-            "icon": "heart",
-            "heading": "Description",
-            "keep_open": false
-          }
         }
       },
       "block_order": [
@@ -117,8 +109,7 @@
         "buy_buttons",
         "custom_liquid_wbDEGx",
         "related_buttons",
-        "sticky_cart",
-        "collapsible_description_mFEEde"
+        "sticky_cart"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -175,7 +166,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Cool. Refresh. Glow",
             "text_size": 20,
             "link": ""
           }
@@ -204,7 +195,7 @@
         "heading_tHmwxe": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Instant Cooling Relief",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -212,7 +203,7 @@
         "text_yH4F3j": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><br/>Treat your skin to a refreshing cooling experience that helps reduce the appearance of puffiness, calm tired-looking skin, and leave your face feeling fresh and revitalized in just 5–10 minutes.<br/><br/></p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -224,18 +215,19 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1783152993_p2_1760624107_phpeefcifu4scp4fLKOlav.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "100vh",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
         "image_behavior": "none",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
+        "mobile_image_ratio": "100vh",
         "enable_video_looping": false,
         "video_url": "",
         "use_custom_colors": false,
@@ -257,7 +249,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Your Daily Glow Starts Cold",
             "text_size": 20,
             "link": ""
           }
@@ -286,7 +278,7 @@
         "heading_pxXWr8": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Your Everyday Glow Essential",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -294,7 +286,7 @@
         "text_DYUPaD": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Whether before makeup, after skincare, or at the end of a long day, IceBloom helps your skin look smoother, brighter, and more refreshed. Reusable, comfortable, and easy to use whenever your skin needs a boost.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -306,6 +298,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1783152993_p2_1760624107_phpgsidu9psvgqedYWwg7w.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -330,82 +323,24 @@
         "padding_bottom": 36
       }
     },
-    "blocks_UNkPdE": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_c856904_xHJykk": {
-          "type": "ai_gen_block_c856904",
-          "settings": {
-            "header_col_1": "Feature",
-            "header_col_2": "Benefit",
-            "header_col_3": "Details",
-            "row_1_col_1": "Quality materials",
-            "row_1_col_2": "Long-lasting durability",
-            "row_1_col_3": "Premium construction",
-            "row_2_col_1": "Fast shipping",
-            "row_2_col_2": "Quick delivery",
-            "row_2_col_3": "2-3 business days",
-            "row_3_col_1": "Easy returns",
-            "row_3_col_2": "Hassle-free process",
-            "row_3_col_3": "30-day guarantee",
-            "row_4_col_1": "Customer support",
-            "row_4_col_2": "Expert assistance",
-            "row_4_col_3": "24/7 availability",
-            "header_background": "#df7390",
-            "header_text_color": "#ffffff",
-            "row_odd_background": "#f3f3f3",
-            "row_even_background": "#ffffff",
-            "cell_text_color": "#212326",
-            "border_color": "#d2d5d9",
-            "table_background": "#ffffff",
-            "desktop_width_percent": 100,
-            "header_font_size": 16,
-            "cell_font_size": 14,
-            "cell_padding": 16,
-            "border_width": 1,
-            "border_radius": 0,
-            "text_alignment": "left"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_c856904_xHJykk"
-      ],
-      "name": "Benefits table",
-      "settings": {}
-    },
-    "faq_NMpBcR": {
-      "type": "faq",
-      "blocks": {
-        "question_t9GBdi": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        },
-        "question_JkJcDQ": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_t9GBdi",
-        "question_JkJcDQ"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_mGixEB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "<style>\n.icebloom-compare {\n  width: 100%;\n  max-width: 900px;\n  margin: 25px auto;\n  border-collapse: collapse;\n  font-family: Arial, sans-serif;\n  font-size: 15px;\n  border-radius: 14px;\n  overflow: hidden;\n  box-shadow: 0 4px 18px rgba(223,115,144,.15);\n}\n\n.icebloom-compare th {\n  background: #df7390;\n  color: #fff;\n  padding: 15px 10px;\n  text-align: center;\n}\n\n.icebloom-compare td {\n  padding: 14px 10px;\n  text-align: center;\n  border-bottom: 1px solid #f2d4dc;\n}\n\n.icebloom-compare td:first-child {\n  text-align: left;\n  font-weight: 600;\n  color: #444;\n}\n\n.icebloom-compare tr:nth-child(even) {\n  background: #fff7f9;\n}\n\n.icebloom-yes {\n  color: #df7390;\n  font-weight: 700;\n}\n\n.icebloom-no {\n  color: #999;\n  font-weight: 700;\n}\n\n@media (max-width:600px){\n  .icebloom-compare{\n    font-size:13px;\n  }\n\n  .icebloom-compare th,\n  .icebloom-compare td{\n    padding:11px 6px;\n  }\n}\n</style>\n\n<table class=\"icebloom-compare\">\n  <tr>\n    <th>Benefits</th>\n    <th>IceBloom</th>\n    <th>Others</th>\n  </tr>\n\n  <tr>\n    <td>Reusable Design</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Hot & Cold Therapy</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Adjustable Strap</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Flexible Gel Beads</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Helps Reduce the Look of Puffiness</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Comfortable Fit</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n\n  <tr>\n    <td>Perfect Before Makeup</td>\n    <td class=\"icebloom-yes\">✔ Yes</td>\n    <td class=\"icebloom-no\">✖ No</td>\n  </tr>\n</table>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_HwKLCC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.faq-section{\nmax-width:900px;\nmargin:40px auto;\nfont-family:Arial,sans-serif;\n}\n.faq-section details{\nborder-bottom:1px solid #e5e5e5;\npadding:16px 0;\n}\n.faq-section summary{\nlist-style:none;\ncursor:pointer;\nfont-size:17px;\nfont-weight:600;\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\n}\n.faq-section summary::-webkit-details-marker{\ndisplay:none;\n}\n.faq-section summary::after{\ncontent:\"+\";\nfont-size:24px;\nfont-weight:400;\ntransition:.2s;\n}\n.faq-section details[open] summary::after{\ncontent:\"−\";\n}\n.faq-section .answer{\nmargin-top:12px;\nfont-size:15px;\nline-height:1.7;\ncolor:#666;\n}\n</style>\n\n<div class=\"faq-section\">\n\n<details>\n<summary>How do I use the IceBloom Face Mask?</summary>\n<div class=\"answer\">\nPlace the mask in the refrigerator for at least 1–2 hours, then apply it to clean skin for 5–10 minutes. Continue with your skincare or makeup routine afterward.\n</div>\n</details>\n\n<details>\n<summary>Can I use it warm as well?</summary>\n<div class=\"answer\">\nYes! IceBloom can also be used warm for a relaxing self-care experience. Always follow the heating instructions and avoid excessive temperatures.\n</div>\n</details>\n\n<details>\n<summary>How often can I use it?</summary>\n<div class=\"answer\">\nYou can use IceBloom daily or whenever your skin feels puffy, tired, or needs a refreshing boost.\n</div>\n</details>\n\n<details>\n<summary>Is it reusable?</summary>\n<div class=\"answer\">\nAbsolutely! IceBloom is made from durable cooling gel beads and is designed to be reused again and again.\n</div>\n</details>\n\n<details>\n<summary>Does it fit all face shapes?</summary>\n<div class=\"answer\">\nYes. The flexible design and adjustable strap provide a comfortable fit for most face shapes and sizes.\n</div>\n</details>\n\n<details>\n<summary>Can I use it before makeup?</summary>\n<div class=\"answer\">\nYes! Many people use IceBloom before applying makeup to help their skin look refreshed, smoother, and more awake.\n</div>\n</details>\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -494,8 +429,8 @@
     "image_with_text_wqwjmH",
     "scrolling_promotion_3eXWk4",
     "image_with_text_689fec",
-    "blocks_UNkPdE",
-    "faq_NMpBcR",
+    "custom_liquid_mGixEB",
+    "custom_liquid_HwKLCC",
     "17838068207fc13168",
     "guarantees_Yj7NaV"
   ]
