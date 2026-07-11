@@ -97,7 +97,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Youngevity",
+            "text": "Delivery All Over Lebanon",
             "text_size": 20,
             "link": ""
           }
@@ -114,7 +114,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#ffffff",
-        "colors_background": "#cb572a",
+        "colors_background": "#DF7390",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -126,7 +126,7 @@
         "heading_NEyD4Q": {
           "type": "heading",
           "settings": {
-            "heading": "AT Youngevity",
+            "heading": "AT ELORIAH",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -134,7 +134,7 @@
         "text_z3jQfd": {
           "type": "text",
           "settings": {
-            "text": "<p>we believe that confidence begins with a healthy smile. Our mission is to create innovative, easy-to-use oral care solutions that help you maintain professional-level hygiene from the comfort of your home.</p><p>We combine modern technology with thoughtful design to deliver products that are effective, safe, and convenient for everyday use. From powerful sonic cleaning to user-friendly features, every Youngevity product is crafted to support your journey toward better oral health.</p>",
+            "text": "<p>Our mission is to make premium beauty products accessible to everyone while providing a smooth shopping experience, reliable service, and fast delivery.</p><p>Thank you for choosing us to be part of your beauty journey. We look forward to helping you discover products you'll love.</p>",
             "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": "",
@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "WELCOME TO YOUNGEVITY",
+            "text": "WELCOME TO ELORIAH",
             "text_size": 20,
             "link": ""
           }
@@ -190,51 +190,19 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#ffffff",
-        "colors_background": "#cb572a",
+        "colors_background": "#DF7390",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
       }
     },
-    "faq_VkHiGm": {
-      "type": "faq",
-      "blocks": {
-        "question_yNkDQY": {
-          "type": "question",
-          "settings": {
-            "title": "Is the Youngevity Sonic Dental Scaler safe to use at home?",
-            "text": "<p>Yes! The device is designed for safe at-home use. It features gentle yet powerful sonic vibrations and multiple modes to suit different sensitivity levels.</p>"
-          }
-        },
-        "question_YmRBPG": {
-          "type": "question",
-          "settings": {
-            "title": "Does it hurt to use?",
-            "text": "<p>When used correctly, it should not hurt. If you have sensitive gums, start with the lowest setting and gently guide the tip along your teeth.<br/></p>"
-          }
-        },
-        "question_9WMfD8": {
-          "type": "question",
-          "settings": {
-            "title": "Is it waterproof?",
-            "text": "<p>Yes, the Youngevity Sonic Dental Scaler is waterproof, making it safe for use in the bathroom and easy to clean after each use.<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_yNkDQY",
-        "question_YmRBPG",
-        "question_9WMfD8"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_3N8UR4": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "<style>\n.custom-faq {\n  max-width: 900px;\n  margin: 40px auto;\n  font-family: Arial, sans-serif;\n}\n\n.custom-faq details {\n  border-bottom: 1px solid #e5e5e5;\n  padding: 16px 0;\n}\n\n.custom-faq summary {\n  list-style: none;\n  cursor: pointer;\n  font-size: 17px;\n  font-weight: 600;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-faq summary::-webkit-details-marker {\n  display: none;\n}\n\n.custom-faq summary::after {\n  content: \"+\";\n  font-size: 24px;\n  font-weight: 400;\n  transition: .2s;\n}\n\n.custom-faq details[open] summary::after {\n  content: \"−\";\n}\n\n.custom-faq .answer {\n  margin-top: 12px;\n  color: #666;\n  line-height: 1.7;\n  font-size: 15px;\n}\n</style>\n\n<div class=\"custom-faq\">\n\n  <details>\n    <summary>Do you deliver all over Lebanon?</summary>\n    <div class=\"answer\">\n      Yes! We deliver to all areas across Lebanon.\n    </div>\n  </details>\n\n  <details>\n    <summary>How long does delivery take?</summary>\n    <div class=\"answer\">\n      Orders are typically delivered within <strong>5–7 business days</strong>.\n    </div>\n  </details>\n\n  <details>\n    <summary>How can I contact you?</summary>\n    <div class=\"answer\">\n      You can contact us anytime through WhatsApp. Simply click the WhatsApp button on our website and we'll be happy to assist you.\n    </div>\n  </details>\n\n</div>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -298,7 +266,7 @@
     "scrolling_promotion_gqQrxK",
     "rich_text_iPTEGL",
     "scrolling_promotion_yJEgih",
-    "faq_VkHiGm",
+    "custom_liquid_3N8UR4",
     "guarantees_QbnCCW"
   ]
 }
